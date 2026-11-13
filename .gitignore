@@ -1,0 +1,22 @@
+# Dependencies
+# The schemastery copy under node_modules/ is a local-resolution workaround.
+# Every machine that installs this bundle must resolve its own copy.
+node_modules/
+
+# DingTalk session — never commit. The jar lives outside the package, at
+# ~/.dsh/work-checklist/cookies.json, and this is the belt-and-braces guard
+# for anyone who copies it back in.
+cookies.json
+*.cookies.json
+jar*.json
+
+# Local leftovers
+*.log
+.dsh-scratch/
+dist/
+.tmp/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp

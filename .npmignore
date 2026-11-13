@@ -1,0 +1,19 @@
+# Dependencies
+# node_modules/ holds a local schemastery copy pinning the schema shape the
+# Harness config form needs. It is installed per machine, never shipped.
+node_modules/
+
+# DingTalk session / credentials
+cookies.json
+*.cookies.json
+jar*.json
+auth.json
+
+# Local leftovers
+*.log
+.dsh-scratch/
+*.tsbuildinfo
+
+# OS noise
+.DS_Store
+Thumbs.db
