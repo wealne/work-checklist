@@ -1,6 +1,6 @@
 {
   "name": "work-checklist",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "type": "module",
   "description": "Browse and edit a DingTalk AI Table inside DeepSeek Harness.",
